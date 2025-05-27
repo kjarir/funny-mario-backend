@@ -4,3 +4,6 @@ sentence-transformers
 numpy
 Pillow
 requests 
+pymupdf
+langchain-community
+faiss-cpu
