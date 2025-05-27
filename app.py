@@ -13,7 +13,7 @@ from gemini_funny_bot import get_funny_response
 from image_generator import generate_image
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app, origins=["https://funny-mario.vercel.app"])
 
 # Load PDFs and build index at startup
 backend_dir = os.path.dirname(os.path.abspath(__file__))
